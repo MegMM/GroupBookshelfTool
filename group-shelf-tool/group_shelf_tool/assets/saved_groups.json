@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "group_name": "Gay Science Fiction",
+        "membership": 1,
+        "folder_name": "gay_science_fiction",
+        "url_str": "bookshelf/28965-gay-science-fiction",
+        "create_date": "2025-04-01T16:36:20.077088",
+        "mod_date": "2025-04-08T00:16:59.205156"
+    },
+    {
+        "id": 2,
+        "group_name": "LGBTQ Fantasy Science Fiction",
+        "membership": 1,
+        "folder_name": "LGBTQ_Fantasy_SciFi",
+        "url_str": "bookshelf/64285-lgbtq-gsm-fantasy-science-fiction",
+        "create_date": "2025-04-01T16:36:20.083397",
+        "mod_date": "2025-04-03T19:10:16.613273"
+    },
+    {
+        "id": 3,
+        "group_name": "MM Romance",
+        "membership": 1,
+        "folder_name": "MM_Romance",
+        "url_str": "bookshelf/20149-m-m-romance",
+        "create_date": "2025-04-01T16:36:20.089092",
+        "mod_date": "2025-04-03T19:15:52.852451"
+    },
+    {
+        "id": 4,
+        "group_name": "Queer Fantasy & Science Fiction",
+        "membership": 1,
+        "folder_name": "Queer_Fantasy_SciFi",
+        "url_str": "bookshelf/64285-queer-fantasy-science-fiction",
+        "create_date": "2025-04-01T16:36:20.095111",
+        "mod_date": "2025-04-08T00:17:22.713363"
+    },
+    {
+        "id": 5,
+        "group_name": "YA LBGT Books",
+        "membership": 1,
+        "folder_name": "YA_LGBT_Books",
+        "url_str": "bookshelf/49526-ya-lgbt-books",
+        "create_date": "2025-04-01T16:36:20.100698",
+        "mod_date": "2025-04-08T00:17:32.009984"
+    },
+    {
+        "id": 6,
+        "group_name": "MM Romance and Gay Fiction",
+        "membership": 0,
+        "folder_name": "MM_Romance_and_Gay_Fiction",
+        "url_str": "bookshelf/169356-mm-romance-and-gay-fiction",
+        "create_date": "2025-04-07T18:31:11.164929",
+        "mod_date": "2025-04-07T18:31:11.164937"
+    }
+]

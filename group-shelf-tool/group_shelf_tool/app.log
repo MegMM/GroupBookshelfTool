@@ -1,0 +1,555 @@
+2025-05-03 07:50:32,651 [INFO] site_connector.fill_log_in_fields, line 77: Email and Password fields found.
+2025-05-03 07:50:32,652 [INFO] site_connector.exectute_log_in, line 84: Submitting login credentials...
+2025-05-03 07:50:38,944 [INFO] site_connector.check_login_success, line 112: Login successful!
+2025-05-03 07:50:38,945 [INFO] site_connector.do_connect, line 166: Log in complete
+2025-05-03 07:50:39,030 [DEBUG] download_tab.update_group_combobox, line 137: Updating group combobox...
+2025-05-03 07:50:57,267 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 07:50:57,269 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 07:50:57,273 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 07:50:57,311 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 07:50:57,322 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 07:50:57,328 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 07:50:57,335 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 07:50:57,339 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 07:50:57,347 [DEBUG] download_tab.update_group_combobox, line 137: Updating group combobox...
+2025-05-03 07:51:14,662 [DEBUG] groups_admin_tab.edit_group_double_clicked, line 335: row_data = {'id': '1', 'group_name': 'Gay Science Fiction', 'membership': False, 'folder_name': 'gay_science_fiction', 'url': 'bookshelf/28965-gay-science-fiction', 'created_date': '2025-05-03 14:50:57', 'modified_date': '2025-05-03 14:50:57'}
+2025-05-03 07:51:14,664 [DEBUG] groups_admin_tab.edit_group_dialog, line 358: initial_data = {'id': '1', 'group_name': 'Gay Science Fiction', 'membership': False, 'folder_name': 'gay_science_fiction', 'url': 'bookshelf/28965-gay-science-fiction', 'created_date': '2025-05-03 14:50:57', 'modified_date': '2025-05-03 14:50:57'}
+2025-05-03 07:51:14,686 [DEBUG] groups_admin_tab.__init__, line 471: row_data = {'id': '1', 'group_name': 'Gay Science Fiction', 'membership': False, 'folder_name': 'gay_science_fiction', 'url': 'bookshelf/28965-gay-science-fiction', 'created_date': '2025-05-03 14:50:57', 'modified_date': '2025-05-03 14:50:57'}
+2025-05-03 07:51:14,688 [DEBUG] groups_admin_tab.__init__, line 487: self.membership = False
+2025-05-03 07:51:20,672 [DEBUG] groups_admin_tab.get_data, line 420: self.membership_input.isChecked() = True
+2025-05-03 07:51:20,673 [DEBUG] groups_admin_tab.get_data, line 498: data = {'id': '1', 'group_name': 'Gay Science Fiction', 'membership': True, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 07:51:20,673 [DEBUG] db_admin.update_group_record, line 412: values = <bound method GroupsAdminTab.update_admin_message of <group_bookshelf_tool.components.groups_admin_tab.GroupsAdminTab object at 0x000002A26CD15310>>
+2025-05-03 07:51:20,674 [DEBUG] groups_admin_tab.edit_group_dialog, line 371: Edit Dialog failed to process data: 'function' object has no attribute 'get'
+2025-05-03 08:21:45,706 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:21:45,706 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:21:45,707 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:21:45,707 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:21:45,708 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:21:45,708 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:21:45,731 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:21:45,732 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:21:45,732 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:21:45,732 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:21:45,737 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:21:45,737 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:21:45,738 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:21:45,738 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:21:45,743 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:21:45,743 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:21:45,743 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:21:45,743 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:21:45,748 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:21:45,749 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:21:45,750 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:21:45,750 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:21:45,755 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:21:45,755 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:21:45,755 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:21:45,756 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:21:45,762 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:21:45,762 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:30:52,375 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:30:52,376 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:30:52,376 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:30:52,377 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:30:52,377 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:30:52,377 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:30:52,401 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:30:52,401 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:30:52,401 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:30:52,402 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:30:52,406 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:30:52,406 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:30:52,407 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:30:52,407 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:30:52,411 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:30:52,411 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:30:52,411 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:30:52,412 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:30:52,417 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:30:52,417 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:30:52,418 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:30:52,418 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:30:52,422 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:30:52,422 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:30:52,422 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:30:52,423 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:30:52,427 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:30:52,427 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:33:19,934 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:33:19,935 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:33:19,935 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:33:19,936 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:33:19,936 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:33:19,936 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:33:19,958 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:33:19,958 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:33:19,959 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:33:19,959 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:33:19,963 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:33:19,963 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:33:19,964 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:33:19,964 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:33:19,968 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:33:19,968 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:33:19,968 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:33:19,969 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:33:19,974 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:33:19,974 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:33:19,975 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:33:19,975 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:33:19,978 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:33:19,979 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:33:19,979 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:33:19,980 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:33:19,984 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:33:19,984 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:34:55,284 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:34:55,284 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:34:55,285 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:34:55,285 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:34:55,285 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:34:55,285 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:34:55,308 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:34:55,308 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:34:55,309 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:34:55,309 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:34:55,314 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:34:55,314 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:34:55,314 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:34:55,315 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:34:55,319 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:34:55,319 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:34:55,319 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:34:55,320 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:34:55,324 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:34:55,324 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:34:55,325 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:34:55,325 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:34:55,330 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:34:55,330 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:34:55,331 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:34:55,331 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:34:55,335 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:34:55,335 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:37:45,449 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:37:45,450 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:37:45,450 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:37:45,451 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:37:45,451 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:37:45,451 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:37:45,471 [DEBUG] models.process_bind_param, line 43: BooleanIntegervalue = False
+2025-05-03 08:37:45,475 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:37:45,475 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:37:45,475 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:37:45,476 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:37:45,477 [DEBUG] models.process_bind_param, line 43: BooleanIntegervalue = False
+2025-05-03 08:37:45,481 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:37:45,482 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:37:45,482 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:37:45,482 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:37:45,484 [DEBUG] models.process_bind_param, line 43: BooleanIntegervalue = False
+2025-05-03 08:37:45,487 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:37:45,487 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:37:45,488 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:37:45,488 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:37:45,490 [DEBUG] models.process_bind_param, line 43: BooleanIntegervalue = False
+2025-05-03 08:37:45,494 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:37:45,494 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:37:45,495 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:37:45,495 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:37:45,496 [DEBUG] models.process_bind_param, line 43: BooleanIntegervalue = False
+2025-05-03 08:37:45,500 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:37:45,500 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:37:45,500 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:37:45,501 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:37:45,502 [DEBUG] models.process_bind_param, line 43: BooleanIntegervalue = False
+2025-05-03 08:37:45,505 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:37:45,506 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:38:57,066 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:38:57,067 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:38:57,068 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:38:57,068 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:38:57,068 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:38:57,069 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:38:57,094 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = False
+2025-05-03 08:38:57,099 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:38:57,100 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:38:57,100 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:38:57,101 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:38:57,103 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = False
+2025-05-03 08:38:57,107 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:38:57,108 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:38:57,108 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:38:57,109 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:38:57,110 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = False
+2025-05-03 08:38:57,115 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:38:57,116 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:38:57,116 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:38:57,117 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:38:57,118 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = False
+2025-05-03 08:38:57,122 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:38:57,123 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:38:57,123 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:38:57,124 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:38:57,126 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = False
+2025-05-03 08:38:57,130 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:38:57,130 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:38:57,131 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:38:57,131 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = False
+2025-05-03 08:38:57,133 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = False
+2025-05-03 08:38:57,138 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:38:57,138 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:40:00,574 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:40:00,574 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:40:00,575 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:40:00,575 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:40:00,575 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:40:00,576 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:40:00,598 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:40:00,601 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:40:00,602 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:40:00,602 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:40:00,602 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:40:00,605 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:40:00,608 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:40:00,609 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:40:00,609 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:40:00,609 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:40:00,611 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:40:00,614 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:40:00,614 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:40:00,615 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:40:00,615 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:40:00,616 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:40:00,619 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:40:00,619 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:40:00,620 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:40:00,621 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:40:00,623 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:40:00,627 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:40:00,628 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:40:00,628 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:40:00,628 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 0
+2025-05-03 08:40:00,630 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 0
+2025-05-03 08:40:00,633 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:40:00,634 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:48:39,695 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:48:39,695 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:48:39,696 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:48:39,696 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:48:39,696 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:48:39,697 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:48:39,716 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:48:39,721 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:48:39,721 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:48:39,721 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:48:39,722 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:48:39,724 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:48:39,727 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:48:39,728 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:48:39,728 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:48:39,729 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:48:39,730 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:48:39,733 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:48:39,733 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:48:39,734 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:48:39,734 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:48:39,736 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:48:39,738 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:48:39,739 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:48:39,739 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:48:39,740 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:48:39,741 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 1
+2025-05-03 08:48:39,745 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:48:39,745 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:48:39,745 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:48:39,745 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 0
+2025-05-03 08:48:39,747 [DEBUG] models.process_bind_param, line 43: BooleanInteger value = 0
+2025-05-03 08:48:39,749 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:48:39,750 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:57:03,676 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-03 08:57:03,676 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-03 08:57:03,676 [DEBUG] test_load_data.status_update, line 8: Loaded data from C:\GoodreadsGroupBookshelfTool\group-bookshelf-tool\group_bookshelf_tool\assets\saved_groups.json
+2025-05-03 08:57:03,677 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-03 08:57:03,677 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-03 08:57:03,677 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:57:03,709 [DEBUG] test_load_data.status_update, line 8: Success! Gay Science Fiction added
+2025-05-03 08:57:03,709 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-03 08:57:03,709 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-03 08:57:03,710 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:57:03,715 [DEBUG] test_load_data.status_update, line 8: Success! LGBTQ Fantasy Science Fiction added
+2025-05-03 08:57:03,715 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-03 08:57:03,715 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-03 08:57:03,716 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:57:03,721 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance added
+2025-05-03 08:57:03,721 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-03 08:57:03,722 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-03 08:57:03,722 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:57:03,727 [DEBUG] test_load_data.status_update, line 8: Success! Queer Fantasy & Science Fiction added
+2025-05-03 08:57:03,727 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-03 08:57:03,728 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-03 08:57:03,728 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 1
+2025-05-03 08:57:03,733 [DEBUG] test_load_data.status_update, line 8: Success! YA LBGT Books added
+2025-05-03 08:57:03,733 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-03 08:57:03,734 [DEBUG] db_admin.add_group_record, line 354: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 08:57:03,734 [DEBUG] db_admin.add_group_record, line 371: add_group_record: membership = 0
+2025-05-03 08:57:03,739 [DEBUG] test_load_data.status_update, line 8: Success! MM Romance and Gay Fiction added
+2025-05-03 08:57:03,739 [DEBUG] test_load_data.status_update, line 8: Data loaded
+2025-05-03 08:57:30,286 [INFO] site_connector.fill_log_in_fields, line 77: Email and Password fields found.
+2025-05-03 08:57:30,286 [INFO] site_connector.exectute_log_in, line 84: Submitting login credentials...
+2025-05-03 08:57:34,399 [INFO] site_connector.check_login_success, line 112: Login successful!
+2025-05-03 08:57:34,400 [INFO] site_connector.do_connect, line 166: Log in complete
+2025-05-03 08:57:34,484 [DEBUG] download_tab.update_group_combobox, line 137: Updating group combobox...
+2025-05-03 09:00:15,101 [DEBUG] groups_admin_tab.edit_group_double_clicked, line 335: row_data = {'id': '6', 'group_name': 'MM Romance and Gay Fiction', 'membership': False, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url': 'bookshelf/169356-mm-romance-and-gay-fiction', 'created_date': '2025-05-03 15:57:03', 'modified_date': '2025-05-03 15:57:03'}
+2025-05-03 09:00:15,104 [DEBUG] groups_admin_tab.edit_group_dialog, line 358: initial_data = {'id': '6', 'group_name': 'MM Romance and Gay Fiction', 'membership': False, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url': 'bookshelf/169356-mm-romance-and-gay-fiction', 'created_date': '2025-05-03 15:57:03', 'modified_date': '2025-05-03 15:57:03'}
+2025-05-03 09:00:15,121 [DEBUG] groups_admin_tab.__init__, line 470: row_data = {'id': '6', 'group_name': 'MM Romance and Gay Fiction', 'membership': False, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url': 'bookshelf/169356-mm-romance-and-gay-fiction', 'created_date': '2025-05-03 15:57:03', 'modified_date': '2025-05-03 15:57:03'}
+2025-05-03 09:00:15,123 [DEBUG] groups_admin_tab.__init__, line 486: self.membership = False
+2025-05-03 09:00:17,878 [DEBUG] groups_admin_tab.get_data, line 419: self.membership_input.isChecked() = True
+2025-05-03 09:00:17,878 [DEBUG] groups_admin_tab.get_data, line 497: data = {'id': '6', 'group_name': 'MM Romance and Gay Fiction', 'membership': True, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-03 09:00:17,879 [DEBUG] db_admin.update_group_record, line 415: values = <bound method GroupsAdminTab.update_admin_message of <group_bookshelf_tool.components.groups_admin_tab.GroupsAdminTab object at 0x0000023D7F1D1130>>
+2025-05-03 09:00:17,879 [DEBUG] groups_admin_tab.edit_group_dialog, line 371: Edit Dialog failed to process data: 'function' object has no attribute 'get'
+2025-05-04 13:08:58,842 [ERROR] site_connector.do_connect, line 177: An unexpected error occurred during login: [WinError 5] Access is denied: 'C:\\Users\\megha\\.wdm\\drivers\\chromedriver\\win64\\135.0.7049.114\\chromedriver-win32\\chromedriver.exe' -> 'C:\\Users\\megha\\.wdm\\drivers\\chromedriver\\win64\\135.0.7049.114\\chromedriver.exe'
+2025-05-04 13:09:16,352 [ERROR] site_connector.do_connect, line 177: An unexpected error occurred during login: [WinError 5] Access is denied: 'C:\\Users\\megha\\.wdm\\drivers\\chromedriver\\win64\\135.0.7049.114\\chromedriver-win32\\chromedriver.exe' -> 'C:\\Users\\megha\\.wdm\\drivers\\chromedriver\\win64\\135.0.7049.114\\chromedriver.exe'
+2025-05-04 15:41:45,289 [DEBUG] app.create_app, line 97: create_app: with_connector = True
+
+2025-05-04 15:41:49,896 [INFO] site_connector.fill_log_in_fields, line 77: Email and Password fields found.
+2025-05-04 15:41:49,896 [INFO] site_connector.exectute_log_in, line 84: Submitting login credentials...
+2025-05-04 15:42:01,828 [INFO] site_connector.check_login_success, line 112: Login successful!
+2025-05-04 15:42:01,828 [INFO] site_connector.do_connect, line 166: Log in complete
+2025-05-04 15:42:01,833 [DEBUG] app.__init__, line 51: self.connector = <selenium.webdriver.chrome.webdriver.WebDriver (session="63fa65564a666545b7233243871e9be0")>
+2025-05-04 15:42:01,919 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-04 15:42:24,327 [DEBUG] db_admin.load_data, line 175: os.path.exists(self.initial_groups_file) = True
+2025-05-04 15:42:24,329 [DEBUG] db_admin.load_data, line 176: os.path.exists(self.saved_groups_file) = True
+2025-05-04 15:42:24,359 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 1, 'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction', 'create_date': '2025-04-01T16:36:20.077088', 'mod_date': '2025-04-08T00:16:59.205156'}
+2025-05-04 15:42:24,360 [DEBUG] db_admin.add_group_record, line 345: <class 'dict'>, {'group_name': 'Gay Science Fiction', 'membership': 1, 'folder_name': 'gay_science_fiction', 'url_str': 'bookshelf/28965-gay-science-fiction'}
+2025-05-04 15:42:24,360 [DEBUG] db_admin.add_group_record, line 362: add_group_record: membership = 1
+2025-05-04 15:42:24,382 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 2, 'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.083397', 'mod_date': '2025-04-03T19:10:16.613273'}
+2025-05-04 15:42:24,382 [DEBUG] db_admin.add_group_record, line 345: <class 'dict'>, {'group_name': 'LGBTQ Fantasy Science Fiction', 'membership': 1, 'folder_name': 'LGBTQ_Fantasy_SciFi', 'url_str': 'bookshelf/64285-lgbtq-gsm-fantasy-science-fiction'}
+2025-05-04 15:42:24,383 [DEBUG] db_admin.add_group_record, line 362: add_group_record: membership = 1
+2025-05-04 15:42:24,388 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 3, 'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance', 'create_date': '2025-04-01T16:36:20.089092', 'mod_date': '2025-04-03T19:15:52.852451'}
+2025-05-04 15:42:24,389 [DEBUG] db_admin.add_group_record, line 345: <class 'dict'>, {'group_name': 'MM Romance', 'membership': 1, 'folder_name': 'MM_Romance', 'url_str': 'bookshelf/20149-m-m-romance'}
+2025-05-04 15:42:24,389 [DEBUG] db_admin.add_group_record, line 362: add_group_record: membership = 1
+2025-05-04 15:42:24,395 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 4, 'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction', 'create_date': '2025-04-01T16:36:20.095111', 'mod_date': '2025-04-08T00:17:22.713363'}
+2025-05-04 15:42:24,401 [DEBUG] db_admin.add_group_record, line 345: <class 'dict'>, {'group_name': 'Queer Fantasy & Science Fiction', 'membership': 1, 'folder_name': 'Queer_Fantasy_SciFi', 'url_str': 'bookshelf/64285-queer-fantasy-science-fiction'}
+2025-05-04 15:42:24,402 [DEBUG] db_admin.add_group_record, line 362: add_group_record: membership = 1
+2025-05-04 15:42:24,408 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 5, 'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books', 'create_date': '2025-04-01T16:36:20.100698', 'mod_date': '2025-04-08T00:17:32.009984'}
+2025-05-04 15:42:24,411 [DEBUG] db_admin.add_group_record, line 345: <class 'dict'>, {'group_name': 'YA LBGT Books', 'membership': 1, 'folder_name': 'YA_LGBT_Books', 'url_str': 'bookshelf/49526-ya-lgbt-books'}
+2025-05-04 15:42:24,412 [DEBUG] db_admin.add_group_record, line 362: add_group_record: membership = 1
+2025-05-04 15:42:24,418 [DEBUG] db_admin.load_data, line 198: shelf = {'id': 6, 'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction', 'create_date': '2025-04-07T18:31:11.164929', 'mod_date': '2025-04-07T18:31:11.164937'}
+2025-05-04 15:42:24,420 [DEBUG] db_admin.add_group_record, line 345: <class 'dict'>, {'group_name': 'MM Romance and Gay Fiction', 'membership': 0, 'folder_name': 'MM_Romance_and_Gay_Fiction', 'url_str': 'bookshelf/169356-mm-romance-and-gay-fiction'}
+2025-05-04 15:42:24,422 [DEBUG] db_admin.add_group_record, line 362: add_group_record: membership = 0
+2025-05-04 15:42:24,433 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-04 15:42:34,290 [DEBUG] download_tab.on_group_selected, line 178: MM_Romance_and_Gay_Fiction
+2025-05-04 15:42:34,290 [DEBUG] file_utils.set_download_folder, line 95: Invoking set_download_folder()
+2025-05-04 15:42:34,291 [DEBUG] file_utils.set_download_folder, line 99: self.base_dir = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads'), folder_name = 'MM_Romance_and_Gay_Fiction'
+2025-05-04 15:42:34,295 [DEBUG] file_utils.set_download_folder, line 101: working_path = 'C:\\GoodreadsGroupBookshelfTool\\BookShelfData\\Downloads\\MM_Romance_and_Gay_Fiction'
+2025-05-04 15:42:34,296 [DEBUG] file_utils.set_download_folder, line 120: directory_path = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/MM_Romance_and_Gay_Fiction/2025/May04_1542')
+2025-05-04 15:42:34,297 [DEBUG] download_tab.on_group_selected, line 181: self.download_dir = 'C:\\GoodreadsGroupBookshelfTool\\BookShelfData\\Downloads\\MM_Romance_and_Gay_Fiction\\2025\\May04_1542'
+2025-05-04 15:42:45,272 [DEBUG] helper_dialogs.__init__, line 73: self.base_dir = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/MM_Romance_and_Gay_Fiction')
+2025-05-04 15:43:36,860 [DEBUG] download_tab.start_download, line 238: Starting download...
+2025-05-04 15:43:38,913 [DEBUG] downloader.find_book_count, line 156: Total book count text: all (476)
+2025-05-04 15:43:38,914 [DEBUG] downloader.__init__, line 30: 
+self.book_count = 476
+
+2025-05-04 15:43:38,915 [INFO] downloader.run, line 205: Starting downloads...
+2025-05-04 15:43:38,928 [DEBUG] downloader.run_downloader, line 96: 
+page_range = range(1, 6)
+
+2025-05-04 15:43:38,929 [DEBUG] downloader.run_downloader, line 102: page_num = 1
+2025-05-04 15:43:47,392 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/169356-mm-romance-and-gay-fiction?page=1&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/MM_Romance_and_Gay_Fiction/2025/May04_1542/page_1.html')
+2025-05-04 15:43:47,394 [DEBUG] downloader.run_downloader, line 102: page_num = 2
+2025-05-04 15:43:54,733 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/169356-mm-romance-and-gay-fiction?page=2&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/MM_Romance_and_Gay_Fiction/2025/May04_1542/page_2.html')
+2025-05-04 15:43:54,735 [DEBUG] downloader.run_downloader, line 102: page_num = 3
+2025-05-04 15:44:03,467 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/169356-mm-romance-and-gay-fiction?page=3&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/MM_Romance_and_Gay_Fiction/2025/May04_1542/page_3.html')
+2025-05-04 15:44:03,469 [DEBUG] downloader.run_downloader, line 102: page_num = 4
+2025-05-04 15:44:10,912 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/169356-mm-romance-and-gay-fiction?page=4&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/MM_Romance_and_Gay_Fiction/2025/May04_1542/page_4.html')
+2025-05-04 15:44:10,914 [DEBUG] downloader.run_downloader, line 102: page_num = 5
+2025-05-04 15:44:17,334 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/169356-mm-romance-and-gay-fiction?page=5&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/MM_Romance_and_Gay_Fiction/2025/May04_1542/page_5.html')
+2025-05-04 15:44:17,335 [DEBUG] downloader.run, line 75: result_msg = 'Download loop complete'
+2025-05-04 15:44:17,335 [DEBUG] download_tab.complete_download_session, line 268: Downloads complete. Located at C:\GoodreadsGroupBookshelfTool\BookShelfData\Downloads\MM_Romance_and_Gay_Fiction\2025\May04_1542
+2025-05-04 15:44:17,336 [DEBUG] file_utils.zip_files, line 144: ZipUtility directory = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/MM_Romance_and_Gay_Fiction/2025/May04_1542')
+2025-05-04 15:44:20,901 [INFO] file_utils.zip_files, line 175: Success! HTML files in directory C:\GoodreadsGroupBookshelfTool\BookShelfData\Downloads\MM_Romance_and_Gay_Fiction\2025\May04_1542 have been zipped to C:\GoodreadsGroupBookshelfTool\BookShelfData\Downloads\MM_Romance_and_Gay_Fiction\2025\MM_Romance_and_Gay_Fiction_2025_May04_1542.zip.
+2025-05-04 15:44:20,901 [DEBUG] download_tab.complete_download_session, line 275: Setting up DownloadHistoriesTable
+2025-05-04 15:44:20,904 [DEBUG] db_admin.add_download_session, line 494: group_name = 'MM Romance and Gay Fiction'
+2025-05-04 15:44:20,921 [ERROR] db_admin.add_download_session, line 513: Error saving download information: Failed to save download information: 'DownloadHistoriesTable' object has no attribute 'group_name'
+2025-05-05 13:03:56,963 [DEBUG] app.create_app, line 97: create_app: with_connector = True
+
+2025-05-05 13:04:04,387 [INFO] site_connector.fill_log_in_fields, line 77: Email and Password fields found.
+2025-05-05 13:04:04,388 [INFO] site_connector.exectute_log_in, line 84: Submitting login credentials...
+2025-05-05 13:04:09,275 [INFO] site_connector.check_login_success, line 112: Login successful!
+2025-05-05 13:04:09,276 [INFO] site_connector.do_connect, line 166: Log in complete
+2025-05-05 13:04:09,300 [DEBUG] app.__init__, line 51: self.connector = <selenium.webdriver.chrome.webdriver.WebDriver (session="388b07bbccbc1e2de7f1f744ab5db131")>
+2025-05-05 13:04:11,350 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 13:09:54,633 [DEBUG] app.create_app, line 97: create_app: with_connector = True
+
+2025-05-05 13:09:59,200 [INFO] site_connector.fill_log_in_fields, line 77: Email and Password fields found.
+2025-05-05 13:09:59,200 [INFO] site_connector.exectute_log_in, line 84: Submitting login credentials...
+2025-05-05 13:10:03,526 [INFO] site_connector.check_login_success, line 112: Login successful!
+2025-05-05 13:10:03,526 [INFO] site_connector.do_connect, line 166: Log in complete
+2025-05-05 13:10:03,532 [INFO] app.__init__, line 51: Website connection established: True
+2025-05-05 13:10:03,628 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 13:10:09,050 [DEBUG] download_tab.on_group_selected, line 178: YA_LGBT_Books
+2025-05-05 13:10:09,051 [DEBUG] file_utils.set_download_folder, line 95: Invoking set_download_folder()
+2025-05-05 13:10:09,052 [DEBUG] file_utils.set_download_folder, line 99: self.base_dir = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads'), folder_name = 'YA_LGBT_Books'
+2025-05-05 13:10:09,054 [DEBUG] file_utils.set_download_folder, line 101: working_path = 'C:\\GoodreadsGroupBookshelfTool\\BookShelfData\\Downloads\\YA_LGBT_Books'
+2025-05-05 13:10:09,055 [DEBUG] file_utils.set_download_folder, line 120: directory_path = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310')
+2025-05-05 13:10:09,055 [DEBUG] download_tab.on_group_selected, line 181: self.download_dir = 'C:\\GoodreadsGroupBookshelfTool\\BookShelfData\\Downloads\\YA_LGBT_Books\\2025\\May05_1310'
+2025-05-05 13:10:12,522 [DEBUG] download_tab.start_download, line 238: Starting download...
+2025-05-05 13:10:15,370 [DEBUG] downloader.find_book_count, line 156: Total book count text: all (1721)
+2025-05-05 13:10:15,370 [DEBUG] downloader.__init__, line 30: 
+self.book_count = 1721
+
+2025-05-05 13:10:15,371 [INFO] downloader.run, line 205: Starting downloads...
+2025-05-05 13:10:15,387 [DEBUG] downloader.run_downloader, line 96: 
+page_range = range(1, 19)
+
+2025-05-05 13:10:15,388 [DEBUG] downloader.run_downloader, line 102: page_num = 1
+2025-05-05 13:10:24,392 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=1&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310/page_1.html')
+2025-05-05 13:10:24,394 [DEBUG] downloader.run_downloader, line 102: page_num = 2
+2025-05-05 13:10:33,393 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=2&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310/page_2.html')
+2025-05-05 13:10:33,395 [DEBUG] downloader.run_downloader, line 102: page_num = 3
+2025-05-05 13:10:42,079 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=3&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310/page_3.html')
+2025-05-05 13:10:42,082 [DEBUG] downloader.run_downloader, line 102: page_num = 4
+2025-05-05 13:10:51,349 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=4&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310/page_4.html')
+2025-05-05 13:10:51,349 [DEBUG] downloader.run_downloader, line 102: page_num = 5
+2025-05-05 13:11:00,644 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=5&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310/page_5.html')
+2025-05-05 13:11:00,645 [DEBUG] downloader.run_downloader, line 102: page_num = 6
+2025-05-05 13:11:09,565 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=6&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310/page_6.html')
+2025-05-05 13:11:09,567 [DEBUG] downloader.run_downloader, line 102: page_num = 7
+2025-05-05 13:11:18,590 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=7&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310/page_7.html')
+2025-05-05 13:11:18,591 [DEBUG] downloader.run_downloader, line 102: page_num = 8
+2025-05-05 13:11:26,649 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=8&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1310/page_8.html')
+2025-05-05 13:11:26,650 [DEBUG] downloader.run_downloader, line 102: page_num = 9
+2025-05-05 13:12:02,347 [DEBUG] app.create_app, line 97: create_app: with_connector = True
+
+2025-05-05 13:12:07,040 [INFO] site_connector.fill_log_in_fields, line 77: Email and Password fields found.
+2025-05-05 13:12:07,041 [INFO] site_connector.exectute_log_in, line 84: Submitting login credentials...
+2025-05-05 13:12:11,265 [INFO] site_connector.check_login_success, line 112: Login successful!
+2025-05-05 13:12:11,265 [INFO] site_connector.do_connect, line 166: Log in complete
+2025-05-05 13:12:11,273 [INFO] app.__init__, line 51: Website connection established: True
+2025-05-05 13:12:11,393 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 13:13:01,308 [DEBUG] download_tab.on_group_selected, line 178: YA_LGBT_Books
+2025-05-05 13:13:01,309 [DEBUG] file_utils.set_download_folder, line 95: Invoking set_download_folder()
+2025-05-05 13:13:01,310 [DEBUG] file_utils.set_download_folder, line 99: self.base_dir = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads'), folder_name = 'YA_LGBT_Books'
+2025-05-05 13:13:01,313 [DEBUG] file_utils.set_download_folder, line 101: working_path = 'C:\\GoodreadsGroupBookshelfTool\\BookShelfData\\Downloads\\YA_LGBT_Books'
+2025-05-05 13:13:01,314 [DEBUG] file_utils.set_download_folder, line 120: directory_path = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313')
+2025-05-05 13:13:01,315 [DEBUG] download_tab.on_group_selected, line 181: self.download_dir = 'C:\\GoodreadsGroupBookshelfTool\\BookShelfData\\Downloads\\YA_LGBT_Books\\2025\\May05_1313'
+2025-05-05 13:13:02,497 [DEBUG] download_tab.start_download, line 238: Starting download...
+2025-05-05 13:13:04,644 [DEBUG] downloader.find_book_count, line 156: Total book count text: all (1721)
+2025-05-05 13:13:04,645 [DEBUG] downloader.__init__, line 30: 
+self.book_count = 1721
+
+2025-05-05 13:13:04,646 [INFO] downloader.run, line 205: Starting downloads...
+2025-05-05 13:13:04,660 [DEBUG] downloader.run_downloader, line 96: 
+page_range = range(1, 19)
+
+2025-05-05 13:13:04,661 [DEBUG] downloader.run_downloader, line 102: page_num = 1
+2025-05-05 13:13:14,148 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=1&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_1.html')
+2025-05-05 13:13:14,149 [DEBUG] downloader.run_downloader, line 102: page_num = 2
+2025-05-05 13:13:20,605 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=2&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_2.html')
+2025-05-05 13:13:20,605 [DEBUG] downloader.run_downloader, line 102: page_num = 3
+2025-05-05 13:13:28,252 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=3&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_3.html')
+2025-05-05 13:13:28,252 [DEBUG] downloader.run_downloader, line 102: page_num = 4
+2025-05-05 13:13:34,839 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=4&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_4.html')
+2025-05-05 13:13:34,839 [DEBUG] downloader.run_downloader, line 102: page_num = 5
+2025-05-05 13:13:42,601 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=5&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_5.html')
+2025-05-05 13:13:42,603 [DEBUG] downloader.run_downloader, line 102: page_num = 6
+2025-05-05 13:13:49,898 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=6&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_6.html')
+2025-05-05 13:13:49,900 [DEBUG] downloader.run_downloader, line 102: page_num = 7
+2025-05-05 13:13:57,962 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=7&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_7.html')
+2025-05-05 13:13:57,965 [DEBUG] downloader.run_downloader, line 102: page_num = 8
+2025-05-05 13:14:08,435 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=8&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_8.html')
+2025-05-05 13:14:08,437 [DEBUG] downloader.run_downloader, line 102: page_num = 9
+2025-05-05 13:14:19,300 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=9&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_9.html')
+2025-05-05 13:14:19,300 [DEBUG] downloader.run_downloader, line 102: page_num = 10
+2025-05-05 13:14:27,597 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=10&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_10.html')
+2025-05-05 13:14:27,598 [DEBUG] downloader.run_downloader, line 102: page_num = 11
+2025-05-05 13:14:36,468 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=11&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_11.html')
+2025-05-05 13:14:36,468 [DEBUG] downloader.run_downloader, line 102: page_num = 12
+2025-05-05 13:14:46,355 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=12&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_12.html')
+2025-05-05 13:14:46,356 [DEBUG] downloader.run_downloader, line 102: page_num = 13
+2025-05-05 13:14:51,594 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=13&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_13.html')
+2025-05-05 13:14:51,595 [DEBUG] downloader.run_downloader, line 102: page_num = 14
+2025-05-05 13:15:02,391 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=14&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_14.html')
+2025-05-05 13:15:02,392 [DEBUG] downloader.run_downloader, line 102: page_num = 15
+2025-05-05 13:15:12,823 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=15&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_15.html')
+2025-05-05 13:15:12,825 [DEBUG] downloader.run_downloader, line 102: page_num = 16
+2025-05-05 13:15:17,002 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=16&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_16.html')
+2025-05-05 13:15:17,004 [DEBUG] downloader.run_downloader, line 102: page_num = 17
+2025-05-05 13:15:26,663 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=17&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_17.html')
+2025-05-05 13:15:26,666 [DEBUG] downloader.run_downloader, line 102: page_num = 18
+2025-05-05 13:15:31,148 [DEBUG] downloader.run_downloader, line 112: Saving self.absolute_url = 'https://www.goodreads.com/group/bookshelf/49526-ya-lgbt-books?page=18&order=a&per_page=100&utf8=%E2%9C%93' to self.filepath = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313/page_18.html')
+2025-05-05 13:15:31,151 [DEBUG] downloader.run, line 75: result_msg = 'Download loop complete'
+2025-05-05 13:15:31,155 [DEBUG] download_tab.complete_download_session, line 268: Downloads complete. Located at C:\GoodreadsGroupBookshelfTool\BookShelfData\Downloads\YA_LGBT_Books\2025\May05_1313
+2025-05-05 13:15:31,159 [DEBUG] file_utils.zip_files, line 144: ZipUtility directory = WindowsPath('C:/GoodreadsGroupBookshelfTool/BookShelfData/Downloads/YA_LGBT_Books/2025/May05_1313')
+2025-05-05 13:15:40,531 [INFO] file_utils.zip_files, line 175: Success! HTML files in directory C:\GoodreadsGroupBookshelfTool\BookShelfData\Downloads\YA_LGBT_Books\2025\May05_1313 have been zipped to C:\GoodreadsGroupBookshelfTool\BookShelfData\Downloads\YA_LGBT_Books\2025\YA_LGBT_Books_2025_May05_1313.zip.
+2025-05-05 13:15:40,531 [DEBUG] download_tab.complete_download_session, line 275: Setting up DownloadHistoriesTable
+2025-05-05 13:15:40,534 [DEBUG] db_admin.add_download_session, line 494: group_id = 5
+2025-05-05 13:15:40,534 [DEBUG] db_admin.add_download_session, line 495: group_name = 'YA LBGT Books'
+2025-05-05 13:15:40,534 [DEBUG] db_admin.add_download_session, line 496: folder_name = 'YA_LGBT_Books'
+2025-05-05 13:15:40,535 [DEBUG] db_admin.add_download_session, line 497: download_dir = 'C:\\GoodreadsGroupBookshelfTool\\BookShelfData\\Downloads\\YA_LGBT_Books\\2025\\May05_1313'
+2025-05-05 13:15:40,535 [DEBUG] db_admin.add_download_session, line 498: sort_order = 'Ascending - better matching between archives'
+2025-05-05 13:15:40,535 [DEBUG] db_admin.add_download_session, line 499: books_per_page = 100
+2025-05-05 13:15:40,555 [ERROR] db_admin.add_download_session, line 518: Error saving download information: Failed to save download information: 'DownloadHistoriesTable' object has no attribute 'group_name'
+2025-05-05 14:32:54,604 [DEBUG] app.create_app, line 97: create_app: with_connector = False
+
+2025-05-05 14:32:54,615 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 14:50:56,249 [DEBUG] app.create_app, line 97: create_app: with_connector = False
+
+2025-05-05 14:50:56,260 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 14:50:56,850 [ERROR] history_tab.populate_qt_table, line 113: Group table fetch failed: 'Group' object has no attribute 'group_id'
+2025-05-05 14:51:17,662 [DEBUG] app.create_app, line 97: create_app: with_connector = False
+
+2025-05-05 14:51:17,672 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 14:51:17,743 [ERROR] history_tab.populate_qt_table, line 111: Group table fetch failed: 'Group' object has no attribute 'group_id'
+2025-05-05 14:51:17,748 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 14:56:38,453 [DEBUG] app.create_app, line 97: create_app: with_connector = False
+
+2025-05-05 14:56:38,462 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 14:56:38,539 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:02:57,888 [DEBUG] app.create_app, line 97: create_app: with_connector = False
+
+2025-05-05 15:02:57,897 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:02:57,979 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:03:55,486 [DEBUG] app.create_app, line 97: create_app: with_connector = False
+
+2025-05-05 15:03:55,495 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:03:55,586 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:07:07,251 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:07:07,324 [DEBUG] history_tab.populate_qt_table, line 55: r.group_id = 6
+2025-05-05 15:07:07,324 [DEBUG] history_tab.populate_qt_table, line 55: r.group_id = 5
+2025-05-05 15:07:07,329 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:08:09,203 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:08:09,276 [DEBUG] history_tab.populate_qt_table, line 55: r.group_id = 6
+2025-05-05 15:08:09,277 [DEBUG] history_tab.populate_qt_table, line 55: r.group_id = 5
+2025-05-05 15:08:09,284 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:11:58,265 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:11:58,339 [ERROR] db_admin.fetch_records, line 87: Error fetching record: (sqlite3.OperationalError) no such column: downloads.download_date
+[SQL: SELECT downloads.id AS downloads_id, downloads.group_id AS downloads_group_id, downloads.group_name AS downloads_group_name, downloads.folder_name AS downloads_folder_name, downloads.download_dir AS downloads_download_dir, downloads.sort_order AS downloads_sort_order, downloads.books_per_page AS downloads_books_per_page, downloads.download_date AS downloads_download_date 
+FROM downloads]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-05 15:11:58,340 [ERROR] history_tab.populate_qt_table, line 65: Download table fetch failed: 'NoneType' object is not iterable
+2025-05-05 15:11:58,345 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:13:59,072 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:13:59,140 [ERROR] db_admin.fetch_records, line 87: Error fetching record: (sqlite3.OperationalError) no such column: downloads.download_date
+[SQL: SELECT downloads.id AS downloads_id, downloads.group_id AS downloads_group_id, downloads.group_name AS downloads_group_name, downloads.folder_name AS downloads_folder_name, downloads.download_dir AS downloads_download_dir, downloads.sort_order AS downloads_sort_order, downloads.books_per_page AS downloads_books_per_page, downloads.download_date AS downloads_download_date 
+FROM downloads]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-05 15:13:59,141 [ERROR] history_tab.populate_qt_table, line 67: Download table fetch failed: 'NoneType' object is not iterable
+2025-05-05 15:13:59,147 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:15:53,325 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:15:53,399 [DEBUG] history_tab.populate_qt_table, line 55: r.group_id = 6
+2025-05-05 15:15:53,399 [DEBUG] history_tab.populate_qt_table, line 55: r.group_id = 5
+2025-05-05 15:15:53,404 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:46:44,113 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:47:31,256 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:47:31,333 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:47:35,565 [DEBUG] history_tab.view_record_double_clicked, line 77: row_data = {'id': '2', 'group_id': '5', 'group_name': 'YA LBGT Books', 'download_date': '2025-05-05 20:15:40'}
+2025-05-05 15:56:09,982 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:56:10,048 [ERROR] groups_admin_tab.populate_qt_table, line 251: Group table fetch failed: name 'ix' is not defined
+2025-05-05 15:56:10,050 [ERROR] groups_admin_tab.populate_qt_table, line 251: Group table fetch failed: name 'ix' is not defined
+2025-05-05 15:56:10,061 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-05 15:56:47,568 [INFO] app.__init__, line 51: Website connection established: False
+2025-05-05 15:56:47,671 [DEBUG] download_tab.update_group_combobox, line 139: Updating group combobox...
+2025-05-06 10:40:36,370 [DEBUG] history_tab.view_record_double_clicked, line 90: row_data = {'id': '1', 'group_id': '6', 'group_name': 'MM Romance and Gay Fiction', 'download_date': '2025-05-04 22:44:20'}

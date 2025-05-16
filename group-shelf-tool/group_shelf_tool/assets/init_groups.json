@@ -1,0 +1,32 @@
+[
+    {
+        "group_name": "Gay Science Fiction",
+        "membership": 1,
+        "folder_name": "gay_science_fiction",
+        "url_str": "group/bookshelf/28965-gay-science-fiction"
+    },
+    {
+        "group_name": "LGBTQ Fantasy Science Fiction",
+        "membership": 1,
+        "folder_name": "LGBTQ_Fantasy_SciFi",
+        "url_str": "group/bookshelf/64285-lgbtq-gsm-fantasy-science-fiction"
+    },
+    {
+        "group_name": "MM Romance",
+        "membership": 1,
+        "folder_name": "MM_Romance",
+        "url_str": "group/bookshelf/20149-m-m-romance"
+    },
+    {
+        "group_name": "Queer Fantasy & Science Fiction",
+        "membership": 1,
+        "folder_name": "queer_fantasy_scifi",
+        "url_str": "group/bookshelf/64285-queer-fantasy-science-fiction"
+    },
+    {
+        "group_name": "YA LBGT Books",
+        "membership": 1,
+        "folder_name": "YA_LGBT",
+        "url_str": "group/bookshelf/49526-ya-lgbt-books"
+    }
+]

@@ -1,0 +1,190 @@
+QMainWindow {
+    background-color: #32455a; 
+    color: white;
+ }
+
+QDialog {
+    background-color: #32455a; 
+    color: white;
+ }
+
+QComboBox {
+    padding: 2px 2px 2px 5px;
+    margin:0;
+    background-color: #32455a;  
+    color: white;
+ }
+
+QWidget {
+    background-color: #39516b;  
+    color: white;
+    font-size: 14px;
+ }
+
+QWidget:item:checked {
+    selection-background-color: #456484;
+    font-weight: bold;
+ }
+
+QPushButton {
+    background-color: #587d9f; 
+    color: white;
+    font-size: 14px;
+    height: 25px;    
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+QPushButton:hover {
+    background-color: #587d9f; 
+ }
+
+QPushButton#long_btn {
+
+    width: 180px;
+}
+
+QPushButton#instruction_btn {
+    width: 100px;
+ }
+
+QLabel {
+    background-color: #39516b;  
+    color: white; 
+    margin:0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+ }
+
+QLabel#home_get_started {
+    margin-top: 20px;
+    padding-top: 20px;
+ }
+
+QLabel#home_actions {
+    margin: 0;
+    margin-left: 80px;
+    text-align: left;
+ }
+
+QLabel#user_path_examples_label {
+    margin:0;
+    padding:0;
+    font-family: "Courier", serif;
+ }
+
+QListWidget {
+    background-color: #32455a;  
+    color: white;
+ }
+
+QTabWidget {
+    border: 3px;
+ }
+
+QTabWidget::pane {
+    background-color: #32455a;  
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    padding: 5px;
+    font-size: 13px;
+ }
+
+QTabWidget::pane#home_tab {
+    background-color: #32455a;  
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    padding: 5px;
+ }
+
+QTabWidget::tab-bar {
+    left: 5px; 
+ }
+
+QTabBar::tab {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-bottom-color: #fff; 
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+ }
+
+QTabBar::tab:selected {
+    background-color: #587d9f;
+    border-bottom-color: #39516b;
+ }
+
+QTab#export_tab, QWidget#converter_tab, QWidget#admin_tab {
+    background-color: #32455a;  
+    color: white;
+    font-weight: bold; 
+ }
+
+QWidget#home_tab {
+    background-color: #32455a;
+    padding-top: 30px;
+    margin: 0;
+    margin-top: 10px;
+ }
+
+QWidget#step2_widget {
+    margin: 0;
+ }
+
+QDir {
+    background-color: #39516b;  
+    color: white;
+ }
+
+QFormLayout {
+    background-color: #39516b;  
+    color: white;
+ }
+
+QTableWidget {
+    background-color: #39516b;  
+    color: white;
+ }
+
+QTableWidgetItem {
+    background-color: #32455a;  
+    color: white; 
+ }
+
+QHeaderView::section {
+    color: #32455a; 
+    background-color: #587d9f;
+    font-weight: bold;
+ }
+
+QLineEdit {
+    background-color: #587d9f; 
+    color: white; 
+    height: 22px;
+    padding-left: 5px;
+    margin-top: 5px;
+ }
+
+QLineEdit#step2_line_edit {
+    margin-left: 5px;
+    width: 100px;
+ }
+
+QLineEdit#user_path_edit {
+    margin-left: 20px;
+ }
+
+QLineEdit#source_path {
+    margin-top: 10px;
+ }
+
+QLineEdit#url_text {
+    max-width: 720px;
+    max-height: 60px;
+    padding: 2px:
+ }
